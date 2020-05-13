@@ -9,6 +9,7 @@ body {
     background-position: center bottom;
     background-repeat:repeat-x;
     overflow: hidden;
+   
     padding-left: 130px;
     padding-right: 130px;
     margin-left: 150px;
@@ -27,12 +28,13 @@ body {
     background:url(..//img/photo-inner.png) no-repeat;
     width:224px;
     height:214px;
-    padding:12px 0 0 0;
+    padding:12px 0 0 19px;
+    margin-right: 20px;
 }
 
 .about h1{
     font-weight: 900;
-    color:white;
+    color: white;
     line-height:34px ;
     margin-top: 8px;
     margin-left:-20px;
@@ -42,9 +44,9 @@ body {
 
 .about h3{
     
+    margin-top: 5px;
     color:white;
     line-height:18px ;
-    margin-top: 5px;
     font-family: 'Oswald', sans-serif;
     font-size:18px
 }
@@ -60,13 +62,13 @@ body {
 }
 .personalinfo{
     float:left;
-    margin-top:30px;
+    margin-top:20px;
     width:310px;
     min-height:230px;
     margin-left:10px;
     background: url(..//img/personal-info-sep.png) no-repeat
     left top;
-    padding: 20px 0 19px 20px;
+    padding: 20px 0 19px 40px;
 }
 
 .personalinfo li{
@@ -75,7 +77,7 @@ body {
     margin-bottom:10px;
     overflow: hidden;
     float: left;
-    width: 313px;
+    width: 323px;
 }
 
 .personalinfo li label{
@@ -89,12 +91,11 @@ body {
 }
 
 .personalinfo li span{
-    color:white;
-    line-height: 12px;
-    font-weight: 400;
     float: right;
     width: 220px;
     padding-top: 4px;
+    font-weight: 400;
+    color:white;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -102,17 +103,17 @@ body {
 header{
     position: relative;
     overflow: visible;
-
+    padding: 40px;
 }
 span.social-text{
     position: absolute;
     right:0px;
     color:white;
-    padding: 2px 9px;
+    padding: 120px 149px;
     font-size: 22px;
     cursor: pointer;
     top:10px;
-    border-radius: 70px;;
+    border-radius: 70px;
 }
 
 ul.socialicons{
@@ -121,7 +122,7 @@ ul.socialicons{
     position: relative;
     transition: all ease 1s;
     z-index: -1;
-    left:-7px;
+    left:-70px;
 }
 
 .pulse-button{
@@ -143,8 +144,8 @@ ul.socialicons{
     position: relative;
     padding-left:130px ;
     padding-right: 130px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 150px;
+    margin-right: 150px;
     
 }
 
