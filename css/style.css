@@ -2,6 +2,12 @@ body {
     background-image: url(..//img/bg-body.jpg);
 }
 
+#container{
+    margin: 0px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 
 #profile {
     background-color: #cf455c;
@@ -9,11 +15,9 @@ body {
     background-position: center bottom;
     background-repeat:repeat-x;
     overflow: hidden;
-   
-    padding-left: 130px;
-    padding-right: 130px;
     margin-left: 210px;
     margin-right: 210px;
+   
 }
 
 .about{
@@ -146,7 +150,12 @@ ul.socialicons{
     padding-right: 130px;
     margin-left: 210px;
     margin-right: 210px;
+    margin-bottom: 10px;
     
+}
+
+.tmenu{
+    display: inline-block;
 }
 
 .tabs{
@@ -169,14 +178,32 @@ ul.socialicons{
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 35px;
     text-decoration: none;
+    margin-right: 35px;
 }
 
-.tabs li.active{
-    background:url(img/tab-hover.png) no-repeat;
-}
-.tabs li.active a{
+a.tab-profile.active{
+    background:url(..//img/tab-hover.png) no-repeat;
     color: #cf455c;
 }
+
+a.tab-profile.active{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-0px)
+    }
+    59%{
+        transform:translateY(-10px)
+        }
+}
+
 .tabs li > a i {
 font-size:45px;
 display: block;
@@ -202,4 +229,4 @@ margin-bottom: 5px;
 
 .copyright{
     margin-top: 300px;
-text-align:right;}
+    text-align: center;}
