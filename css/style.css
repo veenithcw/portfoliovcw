@@ -12,8 +12,8 @@ body {
    
     padding-left: 130px;
     padding-right: 130px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 210px;
+    margin-right: 210px;
 }
 
 .about{
@@ -65,7 +65,7 @@ body {
     margin-top:20px;
     width:310px;
     min-height:230px;
-    margin-left:10px;
+    margin-left:40px;
     background: url(..//img/personal-info-sep.png) no-repeat
     left top;
     padding: 20px 0 19px 40px;
@@ -109,7 +109,7 @@ span.social-text{
     position: absolute;
     right:0px;
     color:white;
-    padding: 120px 149px;
+    padding: 120px 210px;
     font-size: 22px;
     cursor: pointer;
     top:10px;
@@ -142,10 +142,10 @@ ul.socialicons{
     height: 100px;
     background-color: #ededed;
     position: relative;
-    padding-left:130px ;
+    padding-left:160px ;
     padding-right: 130px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 210px;
+    margin-right: 210px;
     
 }
 
