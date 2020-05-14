@@ -2,6 +2,9 @@ body {
     background-image: url(..//img/bg-body.jpg);
 }
 
+a, a:hover{
+    text-decoration: none;
+}
 #container{
     margin: 0px;
     width: auto;
@@ -241,4 +244,93 @@ margin-bottom: 5px;
 
 .copyright{
     margin-top: 300px;
-    text-align: center;}
+    text-align: center;
+}
+
+#portfolio{
+    padding: 30px;
+}
+#portfolio-list{
+    width: 820px;
+    overflow: hiddem;
+}
+
+#portfolio-list li{
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #e5e5e5;
+    height: 185px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+
+#portfolio-list li:hover{
+    border-bottom: 1px solid #cf455c;
+    height: 185px;
+}
+
+#portfolio-list img{
+    background-color: white;
+    height: 120px;
+    width: 185px;
+}
+
+#portfolio-list li:hover .title{
+    color: #cf455c;
+}
+
+
+#portfolio-list li .title{
+    color:#3a3a3a;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+#portfolio-list li .categorie{
+    font-size: 11px;
+    line-height: 25px;
+    color: #999;
+}
+
+
+.cats-filter{
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.cats-filter li a{
+    float: left;
+    margin-right: 7px;
+    color: white;
+    background-color: #777;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    
+}
+
+.cats-filter li a:hover{
+    text-decoration: none;
+}
+.cats-filter li a.current transition{
+    background-color: #cf455c;
+}
+
+.extra-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+    
+}
+
+
